@@ -1,0 +1,9 @@
+*.py linguist-detectable=true
+*.py linguist-language=python
+
+
+*.md linguist-vendored
+*.json linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.lock linguist-vendored
