@@ -4,4 +4,3 @@
 
 *.md linguist-vendored
 *.json linguist-vendored
-*.sql linguist-vendored
