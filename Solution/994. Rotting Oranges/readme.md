@@ -5,10 +5,10 @@
 
 # [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0900-0999/0994.Rotting%20Oranges/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/0900-0999/0994.Rotting%20Oranges/README_EN.md
+- **tags**:
   - Breadth-First Search
   - Array
   - Matrix
