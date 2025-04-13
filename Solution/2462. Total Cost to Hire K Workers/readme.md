@@ -3,10 +3,10 @@
 ---
 - **comments**: true
 - **difficulty**: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/2400-2499/2462.Total%20Cost%20to%20Hire%20K%20Workers/README_EN.md
-rating: 1763
-source: Weekly Contest 318 Q3
-tags:
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/2400-2499/2462.Total%20Cost%20to%20Hire%20K%20Workers/README_EN.md
+- **rating**: 1763
+- **source**: Weekly Contest 318 Q3
+- **tags**:
     - Array
     - Two Pointers
     - Simulation
@@ -249,13 +249,3 @@ func (h *hp) Pop() any {
 <!-- tabs:end -->
 
 <!-- solution:end -->
-
-## Related Topics
-
-- [Array](https://leetcode.com/tag/array/)
-- [Two Pointers](https://leetcode.com/tag/two-pointers/)
-- [Simulation](https://leetcode.com/tag/simulation/)
-- [Heap (Priority Queue)](https://leetcode.com/tag/heap/)
-
-<!-- problem:end -->
-```
