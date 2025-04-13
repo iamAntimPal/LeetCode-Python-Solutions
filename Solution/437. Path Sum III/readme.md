@@ -1,10 +1,6 @@
-Sure! Here's the complete LeetCode-style `README.md` file for **437. Path Sum III**, in the format consistent with the ones from the `doocs/leetcode` GitHub repository.
 
----
-
-```markdown
 # 437. Path Sum III
-
+---
 ## Description
 
 Given the `root` of a binary tree and an integer `targetSum`, return *the number of paths where the sum of the values along the path equals* `targetSum`.
@@ -245,6 +241,3 @@ impl Solution {
 **Difficulty:** Medium  
 **Related Topics:** Prefix Sum, Recursion  
 **Link:** [437. Path Sum III](https://leetcode.com/problems/path-sum-iii)
-```
-
-Let me know if you want the Chinese version, or a `.md` file to download.
