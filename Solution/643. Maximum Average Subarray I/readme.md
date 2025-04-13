@@ -1,6 +1,4 @@
-Here’s the `README.md` LeetCode-style markdown for **643. Maximum Average Subarray I**:
 
----
 
 # 643. Maximum Average Subarray I
 
