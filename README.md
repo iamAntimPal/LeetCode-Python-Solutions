@@ -6,7 +6,7 @@ This repository contains Python solutions for various LeetCode problems. Each pr
 
 ## 🌟 Why Use This Repository?
 
-"Success is the sum of small efforts, repeated day in and day out." — Robert Collier
+#### **"Success is the sum of small efforts, repeated day in and day out."** — Robert Collier
 
 This repository is designed to help you:
 
