@@ -69,6 +69,27 @@ graph TD
     E --> L[Performance Tests]
 ```
 
+### Contribution Graph
+
+```mermaid
+graph TD
+    A[Contributors] --> B[Fork]
+    B --> C[Clone in your system]
+    C --> D[Create Branch]
+    D --> E[Add Solution or Update Existing One]
+    E --> F[Commit Changes]
+    F --> G[Push Changes]
+    E --> L[Add Performance]
+    L --> M[Add Test Cases]
+    M --> N[Add Edge Cases]
+    N --> O[ Performance Tests] -->H
+    G --> H[Create Pull Request]
+    H --> I[Merge Pull Request]
+    I --> J[Add Reviewer of owner]
+    J --> K[Add lebels]
+    
+```
+
 ## 📜 License
 
 This repository is licensed under the MIT License. See the `LICENSE` file for more details.
