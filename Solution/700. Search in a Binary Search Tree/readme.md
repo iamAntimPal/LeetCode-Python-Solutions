@@ -1,13 +1,6 @@
-Here's the full LeetCode-style `README.md` file for **700. Search in a Binary Search Tree**, matching the style and structure you've requested:
-
----
-
-```md
----
-comments: true
-difficulty: Easy
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0700-0799/0700.Search%20in%20a%20Binary%20Search%20Tree/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Easy
+- **tags**:
   - Tree
   - Binary Search Tree
   - Binary Tree
@@ -16,8 +9,6 @@ tags:
 <!-- problem:start -->
 
 # [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
-
-[中文文档](/solution/0700-0799/0700.Search%20in%20a%20Binary%20Search%20Tree/README.md)
 
 ## Description
 
@@ -196,6 +187,3 @@ function searchBST(root: TreeNode | null, val: number): TreeNode | null {
 <!-- solution:end -->
 
 <!-- problem:end -->
-```
-
-Let me know if you want the iterative version too or a DFS/BFS variant!    
