@@ -3,12 +3,11 @@
 
 # [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
 
-
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/2300-2399/2336.Smallest%20Number%20in%20Infinite%20Set/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/2300-2399/2336.Smallest%20Number%20in%20Infinite%20Set/README_EN.md
+- **tags**:
   - Design
   - Heap (Priority Queue)
 ---
