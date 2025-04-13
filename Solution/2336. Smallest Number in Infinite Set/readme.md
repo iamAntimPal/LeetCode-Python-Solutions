@@ -248,6 +248,3 @@ class SmallestInfiniteSet {
 - 🧠 Design
 ```
 
----
-
-Let me know if you'd like this converted to another format like a PDF or if you'd like to include unit tests or a template version for interviews!
