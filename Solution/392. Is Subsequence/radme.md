@@ -5,7 +5,8 @@
 # [392. Is Subsequence](https://leetcode.com/problems/is-subsequence)
 
 - **comments**: true
-- **difficulty**: Easy
+- **difficulty**
+- : Easy
 
 - **tags:**
     - Two Pointers
