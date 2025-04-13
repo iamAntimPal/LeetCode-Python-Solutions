@@ -1,4 +1,9 @@
 
+<!-- problem:start -->
+
+# [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
+
+
 ---
 comments: true
 difficulty: Medium
@@ -9,14 +14,6 @@ tags:
     - Stack
     - Linked List
     - Two Pointers
----
-
-<!-- problem:start -->
-
-# [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
-
-[中文文档](/solution/2100-2199/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/README.md)
-
 ## Description
 
 <!-- description:start -->
