@@ -1,10 +1,10 @@
 
 # [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)
 ---
-comments: true
-difficulty: Easy
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0374.Guess%20Number%20Higher%20or%20Lower/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Easy
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0374.Guess%20Number%20Higher%20or%20Lower/README_EN.md
+- **tags**:
     - Binary Search
     - Interactive
 ---
