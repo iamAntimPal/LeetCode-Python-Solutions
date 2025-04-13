@@ -4,19 +4,13 @@
 
 # [392. Is Subsequence](https://leetcode.com/problems/is-subsequence)
 
-[中文文档](/solution/0300-0399/0392.Is%20Subsequence/README.md)
+- **comments**: true
+- **difficulty**: Easy
 
-
----
-- comments: true
-- difficulty: Easy
-- edit_url: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0392.Is%20Subsequence/README_EN.md
-
-- tags:
+- **tags:**
     - Two Pointers
     - String
     - Dynamic Programming
----
 
 ## Description
 
