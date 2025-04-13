@@ -1,13 +1,9 @@
-Here is the complete LeetCode-style `README.md` for **872. Leaf-Similar Trees**, following the format you've requested (similar to `doocs/leetcode`):
 
----
-
-```markdown
 # 872. Leaf-Similar Trees
 
-> Difficulty: Easy  
-> Tags: Tree, Depth-First Search, Binary Tree  
-> Link: [LeetCode Problem](https://leetcode.com/problems/leaf-similar-trees)
+> **Difficulty**: Easy  
+> **Tags**: Tree, Depth-First Search, Binary Tree  
+> **Link**: [LeetCode Problem](https://leetcode.com/problems/leaf-similar-trees)
 
 ## Description
 
@@ -216,6 +212,3 @@ var leafSimilar = function (root1, root2) {
 ```
 
 ---
-```
-
-Let me know if you'd like a download link or the file packaged for a GitHub-style repo.
