@@ -2,7 +2,7 @@
 # 236. Lowest Common Ancestor of a Binary Tree
 **Description**: "Recursive DFS solution to find the lowest common ancestor of two nodes in a binary tree."
 - **difficulty**: Medium
-- **tags**:
+tags:
   - Tree
   - Depth-First Search
   - Binary Tree
