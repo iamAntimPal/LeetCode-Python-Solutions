@@ -1,10 +1,6 @@
-Here's the full `README.md` file for **[2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)** in the same LeetCode-style format as doocs/leetcode:
 
+# 2542. Maximum Subsequence Score
 ---
-
-```markdown
----
-title: "2542. Maximum Subsequence Score"
 difficulty: Medium
 likes: 2184
 dislikes: 75
