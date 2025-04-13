@@ -168,5 +168,3 @@ Sort the pairs `(nums2[i], nums1[i])` by `nums2[i]` in descending order. Use a m
 - **Time Complexity:** O(n log n)
 - **Space Complexity:** O(n)
 ```
-
-Let me know if you want a version with Rust or TypeScript as well!
