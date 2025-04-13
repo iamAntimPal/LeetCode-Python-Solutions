@@ -1,6 +1,9 @@
-Here is the full LeetCode-style `README.md` for **994. Rotting Oranges**, formatted to match the style used in the `doocs/leetcode` GitHub repository:
 
-```markdown
+
+
+<!-- problem:start -->
+
+# [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 ---
 comments: true
 difficulty: Medium
@@ -10,12 +13,6 @@ tags:
   - Array
   - Matrix
 ---
-
-<!-- problem:start -->
-
-# [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
-
-[中文文档](/solution/0900-0999/0994.Rotting%20Oranges/README.md)
 
 ## Description
 
