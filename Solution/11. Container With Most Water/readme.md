@@ -1,20 +1,14 @@
 
-
----
-
-
----
-
 <!-- problem:start -->
 
 # [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 
-```markdown
+
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0000-0099/0011.Container%20With%20Most%20Water/README_EN.md
-tags:
+**comments**: true
+**difficulty**: Medium
+
+**tags**:
     - Greedy
     - Array
     - Two Pointers
