@@ -1,8 +1,4 @@
-Sure! Here's the full `README.md` file for **LeetCode Problem 1448. Count Good Nodes in Binary Tree**, following the exact style you requested, like the `doocs/leetcode` GitHub repo:
 
----
-
-```markdown
 # [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree)
 
 > Difficulty: Medium  
@@ -220,6 +216,3 @@ function goodNodes(root: TreeNode | null): number {
 ```
 ```
 
----
-
-Let me know if you want the Chinese version (`README.md`) or to continue with more problems in this format!
