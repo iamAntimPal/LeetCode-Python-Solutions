@@ -1,6 +1,4 @@
-Sure! Here's the `README.md` for **1732. Find the Highest Altitude** in full LeetCode-style markdown format, including problem description, examples, constraints, explanation, and multi-language solutions.
 
----
 
 # 1732. Find the Highest Altitude
 
@@ -188,6 +186,3 @@ int largestAltitude(int* gain, int gainSize) {
 }
 ```
 
----
-
-Let me know if you'd like a separate version of this as a downloadable `.md` file or need the solution in a different language!
