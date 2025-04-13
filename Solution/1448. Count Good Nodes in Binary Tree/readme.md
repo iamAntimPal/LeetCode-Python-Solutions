@@ -1,9 +1,9 @@
 
 # [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree)
 
-> Difficulty: Medium  
-> Biweekly Contest 26 Q3  
-> Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+> **Difficulty**: Medium  
+> **Biweekly Contest** 26 Q3  
+> **Tags**: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 
 ## Description
 
