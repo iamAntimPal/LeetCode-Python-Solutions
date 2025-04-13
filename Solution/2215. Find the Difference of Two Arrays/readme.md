@@ -1,7 +1,3 @@
-Here is a complete `README.md` in LeetCode-style markdown for **2215. Find the Difference of Two Arrays**:
-
----
-
 # 2215. Find the Difference of Two Arrays
 
 > Difficulty: Easy  
@@ -186,7 +182,3 @@ class Solution {
     }
 }
 ```
-
----
-
-Let me know if you want a `.md` file download or want this for another problem!
