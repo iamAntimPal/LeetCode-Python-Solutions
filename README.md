@@ -4,6 +4,20 @@
 
 This repository contains Python solutions for various LeetCode problems. Each problem is organized in its own directory under the `Solution/` folder, with a `readme.md` file providing the problem description, examples, constraints, and solutions in multiple programming languages.
 
+## 📑 Table of Contents
+
+- [🚀 Features](#-features)
+- [📂 Repository Structure](#-repository-structure)
+- [🛠️ How to Use](#️-how-to-use)
+- [🌟 Highlights](#-highlights)
+- [🤝 Contributing](#-contributing)
+  - [Steps to Contribute](#steps-to-contribute)
+  - [Contribution Graph](#contribution-graph)
+- [📜 License](#-license)
+- [📊 Statistics](#-statistics)
+- [📌 Quick Links](#-quick-links)
+- [Index of LeetCode Python Solutions](#index-of-leetcode-python-solutions)
+
 ## 🚀 Features
 
 - **Comprehensive Solutions**: Includes Python solutions for a wide range of LeetCode problems.
