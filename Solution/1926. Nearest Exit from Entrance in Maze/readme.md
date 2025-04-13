@@ -1,7 +1,4 @@
-Here’s the full `README.md` file for the problem "1926. Nearest Exit from Entrance in Maze":
 
-```markdown
----
 comments: true
 difficulty: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/1900-1999/1926.Nearest%20Exit%20from%20Entrance%20in%20Maze/README_EN.md
@@ -261,6 +258,3 @@ function nearestExit(maze: string[][], entrance: number[]): number {
 - [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)
 
 <!-- problem:end -->
-```
-
-This markdown follows the format used for problems on GitHub, with problem description, examples, constraints, and solutions in multiple languages. Let me know if you need any adjustments or more problems like this!
