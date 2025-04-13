@@ -1,8 +1,9 @@
-Here’s the full `README.md` in LeetCode-style markdown for **2336. Smallest Number in Infinite Set**, matching the format like in `doocs/leetcode`:
 
----
+<!-- problem:start -->
 
-```markdown
+# [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
+
+
 ---
 comments: true
 difficulty: Medium
@@ -12,11 +13,6 @@ tags:
   - Heap (Priority Queue)
 ---
 
-<!-- problem:start -->
-
-# [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
-
-[中文文档](/solution/2300-2399/2336.Smallest%20Number%20in%20Infinite%20Set/README.md)
 
 ## Description
 
