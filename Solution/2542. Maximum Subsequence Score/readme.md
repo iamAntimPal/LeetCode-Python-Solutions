@@ -243,6 +243,3 @@ class SmallestInfiniteSet {
 ```
 
 <!-- tabs:end -->
-```
-
-Let me know if you want this in a GitHub-ready `.md` file or need the Chinese version too!
