@@ -1,7 +1,3 @@
-Here is the `README.md` in LeetCode-style markdown for **1657. Determine if Two Strings Are Close**:
-
----
-
 # 1657. Determine if Two Strings Are Close
 
 > Difficulty: Medium  
@@ -215,7 +211,3 @@ impl Solution {
     }
 }
 ```
-
----
-
-Let me know if you'd like a `.md` file download or need help with anything else!
