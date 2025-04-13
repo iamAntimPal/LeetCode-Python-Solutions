@@ -1,10 +1,4 @@
-Sure! Here's the full `README.md` file in the same **LeetCode-style** format as before, matching the structure used in the `doocs/leetcode` GitHub repository, for **547. Number of Provinces**:
-
----
-
-```markdown
----
-title: "547. Number of Provinces"
+# 547. Number of Provinces
 difficulty: Medium
 related: []
 tags: 
