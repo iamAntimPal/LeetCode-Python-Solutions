@@ -311,10 +311,3 @@ function find(x: string, p: { [key: string]: string }, w: { [key: string]: numbe
 ```
 
 <!-- tabs:end -->
-
-## Conclusion
-
-The problem "399. Evaluate Division" can be effectively solved using graph traversal techniques like Depth-First Search (DFS) or Union-Find to establish relationships between the variables. Both methods allow us to process the equations and answer queries about variable divisions efficiently.
-```
-
-This markdown solution follows the typical structure with multiple languages and detailed explanation, as you requested! Let me know if you need further adjustments.
