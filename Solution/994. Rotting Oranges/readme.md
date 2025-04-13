@@ -347,6 +347,3 @@ var orangesRotting = function(grid) {
 ```
 
 <!-- tabs:end -->
-```
-
-Let me know if you want me to generate more `README.md` like this for other problems!
