@@ -1,11 +1,11 @@
 # 547. Number of Provinces
-difficulty: Medium
-related: []
-tags: 
-  - Depth-First Search
-  - Breadth-First Search
-  - Union Find
-  - Graph
+- **difficulty**: Medium
+- **related**: []
+- **tags**: 
+  - **Depth**-First Search
+  - **Breadth**-First Search
+  - **Union Find**
+  - **Graph**
 ---
 
 ## Description
