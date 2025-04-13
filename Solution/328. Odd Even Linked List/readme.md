@@ -1,22 +1,15 @@
-Here is a `README.md` formatted like the example you provided:
-
----
-
-```markdown
----
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0328.Odd%20Even%20Linked%20List/README_EN.md
-tags:
-    - Linked List
----
 
 <!-- problem:start -->
 
 # [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
 
-[中文文档](/solution/0300-0399/0328.Odd%20Even%20Linked%20List/README.md)
 
+
+- **comments**: true
+- **difficulty**: Medium
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0328.Odd%20Even%20Linked%20List/README_EN.md
+tags:
+    - Linked List
 ## Description
 
 <!-- description:start -->
