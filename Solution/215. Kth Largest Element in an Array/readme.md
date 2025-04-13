@@ -1,11 +1,8 @@
-Here's the full LeetCode-style `README.md` for **215. Kth Largest Element in an Array**, formatted exactly like the `doocs/leetcode` style:
-
----
 
 # 215. Kth Largest Element in an Array
 
-> Difficulty: Medium  
-> Tag: `Array`, `Heap (Priority Queue)`, `Divide and Conquer`, `Quickselect`, `Sorting`
+>**Difficulty**: Medium  
+> **Tag**: `Array`, `Heap (Priority Queue)`, `Divide and Conquer`, `Quickselect`, `Sorting`
 
 ## Description
 
