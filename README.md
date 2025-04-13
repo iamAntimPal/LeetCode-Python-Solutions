@@ -72,7 +72,7 @@ graph TD
 ### Contribution Graph
 
 ```mermaid
-graph TD
+graph TB;
     A[Contributors] --> B[Fork]
     B --> C[Clone in your system]
     C --> D[Create Branch]
