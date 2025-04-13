@@ -1,8 +1,10 @@
-Here's the problem markdown for the problem "2095. Delete the Middle Node of a Linked List":
 
-```markdown
----
-comments: true
+
+<!-- problem:start -->
+
+# [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
+
+- **comments**: true
 difficulty: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/2000-2099/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/README_EN.md
 rating: 1324
@@ -11,13 +13,6 @@ tags:
     - Linked List
     - Two Pointers
 ---
-
-<!-- problem:start -->
-
-# [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
-
-[中文文档](/solution/2000-2099/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/README.md)
-
 ## Description
 
 <!-- description:start -->
