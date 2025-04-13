@@ -1,11 +1,8 @@
-Here’s the problem description and solution for **2462. Total Cost to Hire K Workers** in LeetCode-style markdown format as requested:
 
+# [2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers)
 ---
-
-```markdown
----
-comments: true
-difficulty: Medium
+- **comments**: true
+- **difficulty**: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/2400-2499/2462.Total%20Cost%20to%20Hire%20K%20Workers/README_EN.md
 rating: 1763
 source: Weekly Contest 318 Q3
@@ -15,12 +12,6 @@ tags:
     - Simulation
     - Heap (Priority Queue)
 ---
-
-<!-- problem:start -->
-
-# [2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers)
-
-[中文文档](/solution/2400-2499/2462.Total%20Cost%20to%20Hire%20K%20Workers/README.md)
 
 ## Description
 
