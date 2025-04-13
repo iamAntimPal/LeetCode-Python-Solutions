@@ -1,11 +1,13 @@
-Here's a full `README.md` for the problem "399. Evaluate Division," formatted in the same style as the previous markdown solutions.
 
-```markdown
+<!-- problem:start -->
+
+# [399. Evaluate Division](https://leetcode.com/problems/evaluate-division)
+
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0399.Evaluate%20Division/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/0300-0399/0399.Evaluate%20Division/README_EN.md
+- **tags**:
     - Depth-First Search
     - Breadth-First Search
     - Union Find
@@ -14,12 +16,6 @@ tags:
     - String
     - Shortest Path
 ---
-
-<!-- problem:start -->
-
-# [399. Evaluate Division](https://leetcode.com/problems/evaluate-division)
-
-[中文文档](/solution/0300-0399/0399.Evaluate%20Division/README.md)
 
 ## Description
 
