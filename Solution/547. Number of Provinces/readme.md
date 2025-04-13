@@ -376,6 +376,3 @@ function findCircleNum(isConnected: number[][]): number {
 ```
 
 ---
-```
-
-Let me know if you'd like the `README.md` version in Chinese (`README.zh-CN.md`) as well!
