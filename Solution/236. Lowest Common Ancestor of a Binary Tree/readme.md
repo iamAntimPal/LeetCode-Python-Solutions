@@ -1,13 +1,8 @@
-Sure! Here's the full LeetCode-style `README.md` file for **236. Lowest Common Ancestor of a Binary Tree**, formatted just like in the `doocs/leetcode` GitHub repository.
 
----
-
-```markdown
----
-title: "236. Lowest Common Ancestor of a Binary Tree"
-description: "Recursive DFS solution to find the lowest common ancestor of two nodes in a binary tree."
-difficulty: Medium
-tags:
+# 236. Lowest Common Ancestor of a Binary Tree
+**Description**: "Recursive DFS solution to find the lowest common ancestor of two nodes in a binary tree."
+- **difficulty**: Medium
+- **tags**:
   - Tree
   - Depth-First Search
   - Binary Tree
@@ -233,7 +228,3 @@ var lowestCommonAncestor = function (root, p, q) {
 };
 ```
 
----
-```
-
-Let me know if you’d like the Chinese version or a version for any other specific language or format!
