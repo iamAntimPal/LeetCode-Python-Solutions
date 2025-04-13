@@ -1,240 +1,189 @@
 
-<!-- problem:start -->
+# [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
-# [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
 
 ---
-- **comments**: true
-- **difficulty**: Medium
-- **edit_url**: https://github.com/doocs/leetcode/edit/main/solution/2300-2399/2336.Smallest%20Number%20in%20Infinite%20Set/README_EN.md
-- **tags**:
-  - Design
-  - Heap (Priority Queue)
----
-
+comments: true
+difficulty: Medium
+edit_url: https://github.com/doocs/leetcode/edit/main/solution/2500-2599/2542.Maximum%20Subsequence%20Score/README_EN.md
+rating: 2056
+source: Biweekly Contest 96 Q3
+tags:
+    - Greedy
+    - Array
+    - Sorting
+    - Heap (Priority Queue)
 
 ## Description
 
-<p>You have a set that contains all positive integers: <code>[1, 2, 3, 4, 5, ...]</code>.</p>
+<p>You are given two <strong>0-indexed</strong> integer arrays <code>nums1</code> and <code>nums2</code> of equal length <code>n</code> and a positive integer <code>k</code>. You must choose a <strong>subsequence</strong> of indices from <code>nums1</code> of length <code>k</code>.</p>
 
-<p>Implement the <code>SmallestInfiniteSet</code> class:</p>
+<p>For chosen indices <code>i<sub>0</sub></code>, <code>i<sub>1</sub></code>, ..., <code>i<sub>k - 1</sub></code>, your <strong>score</strong> is defined as:</p>
 
 <ul>
-  <li><code>SmallestInfiniteSet()</code> Initializes the <code>SmallestInfiniteSet</code> object to contain all positive integers.</li>
-  <li><code>int popSmallest()</code> Removes and returns the smallest integer contained in the infinite set.</li>
-  <li><code>void addBack(int num)</code> Adds a positive integer <code>num</code> back into the infinite set if it is not already in the set.</li>
+	<li>The sum of the selected elements from <code>nums1</code> multiplied with the <strong>minimum</strong> of the selected elements from <code>nums2</code>.</li>
+	<li>It can be defined simply as: <code>(nums1[i<sub>0</sub>] + nums1[i<sub>1</sub>] +...+ nums1[i<sub>k - 1</sub>]) * min(nums2[i<sub>0</sub>] , nums2[i<sub>1</sub>], ... ,nums2[i<sub>k - 1</sub>])</code>.</li>
 </ul>
+
+<p>Return <em>the <strong>maximum</strong> possible score.</em></p>
+
+<p>A <strong>subsequence</strong> of indices of an array is a set that can be derived from the set <code>{0, 1, ..., n-1}</code> by deleting some or no elements.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>Input:</strong>
-["SmallestInfiniteSet", "addBack", "popSmallest", "popSmallest", "popSmallest", "addBack", "popSmallest", "popSmallest", "popSmallest"]
-[[], [2], [], [], [], [1], [], [], []]
+<strong>Input:</strong> nums1 = [1,3,3,2], nums2 = [2,1,3,4], k = 3
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> 
+The four possible subsequence scores are:
+- We choose the indices 0, 1, and 2 with score = (1+3+3) * min(2,1,3) = 7.
+- We choose the indices 0, 1, and 3 with score = (1+3+2) * min(2,1,4) = 6. 
+- We choose the indices 0, 2, and 3 with score = (1+3+2) * min(2,3,4) = 12. 
+- We choose the indices 1, 2, and 3 with score = (3+3+2) * min(1,3,4) = 8.
+Therefore, we return the max score, which is 12.
+</pre>
 
-<strong>Output:</strong>
-[null, null, 1, 2, 3, null, 1, 4, 5]
+<p><strong class="example">Example 2:</strong></p>
 
-<strong>Explanation:</strong>
-SmallestInfiniteSet smallestInfiniteSet = new SmallestInfiniteSet();
-smallestInfiniteSet.addBack(2);    // 2 is already in the set, so nothing happens
-smallestInfiniteSet.popSmallest(); // return 1 and remove it from the set
-smallestInfiniteSet.popSmallest(); // return 2 and remove it from the set
-smallestInfiniteSet.popSmallest(); // return 3 and remove it from the set
-smallestInfiniteSet.addBack(1);    // add 1 back into the set
-smallestInfiniteSet.popSmallest(); // return 1 and remove it again
-smallestInfiniteSet.popSmallest(); // return 4 and remove it from the set
-smallestInfiniteSet.popSmallest(); // return 5 and remove it from the set
+<pre>
+<strong>Input:</strong> nums1 = [4,2,3,1,1], nums2 = [7,5,10,9,6], k = 1
+<strong>Output:</strong> 30
+<strong>Explanation:</strong> 
+Choosing index 2 is optimal: nums1[2] * nums2[2] = 3 * 10 = 30 is the maximum possible score.
 </pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-  <li><code>1 &le; num &le; 1000</code></li>
-  <li>At most <code>1000</code> calls will be made in total to <code>popSmallest</code> and <code>addBack</code>.</li>
+	<li><code>n == nums1.length == nums2.length</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= nums1[i], nums2[j] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
 
 <!-- problem:end -->
 
 ## Solutions
 
-### Solution 1: Min Heap + Hash Set
+### Solution 1: Sorting + Priority Queue (Min Heap)
 
-We can simulate the infinite set with an integer pointer `current` initialized to 1, and a min heap to manage elements that are "added back" and are smaller than `current`. A hash set tracks what’s already in the heap to avoid duplicates.
+Sort nums2 and nums1 in descending order according to nums2, then traverse from front to back, maintaining a min heap. The heap stores elements from nums1, and the number of elements in the heap does not exceed $k$. At the same time, maintain a variable $s$ representing the sum of the elements in the heap, and continuously update the answer during the traversal process.
 
-Time Complexity:
-- `popSmallest`: O(log n)
-- `addBack`: O(log n)
-- Space Complexity: O(n)
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array nums1.
 
 <!-- tabs:start -->
 
-### Python3
+#### Python3
 
 ```python
-from heapq import heappush, heappop
-
-class SmallestInfiniteSet:
-    def __init__(self):
-        self.current = 1
-        self.heap = []
-        self.set = set()
-
-    def popSmallest(self) -> int:
-        if self.heap:
-            val = heappop(self.heap)
-            self.set.remove(val)
-            return val
-        val = self.current
-        self.current += 1
-        return val
-
-    def addBack(self, num: int) -> None:
-        if num < self.current and num not in self.set:
-            heappush(self.heap, num)
-            self.set.add(num)
+class Solution:
+    def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
+        nums = sorted(zip(nums2, nums1), reverse=True)
+        q = []
+        ans = s = 0
+        for a, b in nums:
+            s += b
+            heappush(q, b)
+            if len(q) == k:
+                ans = max(ans, s * a)
+                s -= heappop(q)
+        return ans
 ```
 
-### Java
+#### Java
 
 ```java
-class SmallestInfiniteSet {
-    private int current;
-    private PriorityQueue<Integer> heap;
-    private Set<Integer> set;
-
-    public SmallestInfiniteSet() {
-        current = 1;
-        heap = new PriorityQueue<>();
-        set = new HashSet<>();
-    }
-
-    public int popSmallest() {
-        if (!heap.isEmpty()) {
-            int val = heap.poll();
-            set.remove(val);
-            return val;
+class Solution {
+    public long maxScore(int[] nums1, int[] nums2, int k) {
+        int n = nums1.length;
+        int[][] nums = new int[n][2];
+        for (int i = 0; i < n; ++i) {
+            nums[i] = new int[] {nums1[i], nums2[i]};
         }
-        return current++;
-    }
-
-    public void addBack(int num) {
-        if (num < current && set.add(num)) {
-            heap.offer(num);
+        Arrays.sort(nums, (a, b) -> b[1] - a[1]);
+        long ans = 0, s = 0;
+        PriorityQueue<Integer> q = new PriorityQueue<>();
+        for (int i = 0; i < n; ++i) {
+            s += nums[i][0];
+            q.offer(nums[i][0]);
+            if (q.size() == k) {
+                ans = Math.max(ans, s * nums[i][1]);
+                s -= q.poll();
+            }
         }
+        return ans;
     }
 }
 ```
 
-### C++
+#### C++
 
 ```cpp
-class SmallestInfiniteSet {
-private:
-    int current = 1;
-    priority_queue<int, vector<int>, greater<int>> heap;
-    unordered_set<int> inHeap;
-
+class Solution {
 public:
-    int popSmallest() {
-        if (!heap.empty()) {
-            int val = heap.top();
-            heap.pop();
-            inHeap.erase(val);
-            return val;
+    long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {
+        int n = nums1.size();
+        vector<pair<int, int>> nums(n);
+        for (int i = 0; i < n; ++i) {
+            nums[i] = {-nums2[i], nums1[i]};
         }
-        return current++;
-    }
-
-    void addBack(int num) {
-        if (num < current && !inHeap.count(num)) {
-            heap.push(num);
-            inHeap.insert(num);
+        sort(nums.begin(), nums.end());
+        priority_queue<int, vector<int>, greater<int>> q;
+        long long ans = 0, s = 0;
+        for (auto& [a, b] : nums) {
+            s += b;
+            q.push(b);
+            if (q.size() == k) {
+                ans = max(ans, s * -a);
+                s -= q.top();
+                q.pop();
+            }
         }
+        return ans;
     }
 };
 ```
 
-### Go
+#### Go
 
 ```go
-type SmallestInfiniteSet struct {
-	current int
-	heap    *IntHeap
-	set     map[int]bool
-}
-
-func Constructor() SmallestInfiniteSet {
-	h := &IntHeap{}
-	heap.Init(h)
-	return SmallestInfiniteSet{current: 1, heap: h, set: map[int]bool{}}
-}
-
-func (this *SmallestInfiniteSet) PopSmallest() int {
-	if this.heap.Len() > 0 {
-		val := heap.Pop(this.heap).(int)
-		delete(this.set, val)
-		return val
+func maxScore(nums1 []int, nums2 []int, k int) int64 {
+	type pair struct{ a, b int }
+	nums := []pair{}
+	for i, a := range nums1 {
+		b := nums2[i]
+		nums = append(nums, pair{a, b})
 	}
-	val := this.current
-	this.current++
-	return val
-}
-
-func (this *SmallestInfiniteSet) AddBack(num int) {
-	if num < this.current && !this.set[num] {
-		heap.Push(this.heap, num)
-		this.set[num] = true
+	sort.Slice(nums, func(i, j int) bool { return nums[i].b > nums[j].b })
+	q := hp{}
+	var ans, s int
+	for _, e := range nums {
+		a, b := e.a, e.b
+		s += a
+		heap.Push(&q, a)
+		if q.Len() == k {
+			ans = max(ans, s*b)
+			s -= heap.Pop(&q).(int)
+		}
 	}
+	return int64(ans)
 }
 
-type IntHeap []int
+type hp struct{ sort.IntSlice }
 
-func (h IntHeap) Len() int           { return len(h) }
-func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
-func (h *IntHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
-func (h *IntHeap) Pop() interface{} {
-	n := len(*h)
-	val := (*h)[n-1]
-	*h = (*h)[:n-1]
-	return val
-}
-```
-
-### TypeScript
-
-```ts
-class SmallestInfiniteSet {
-    private current: number;
-    private heap: number[];
-    private set: Set<number>;
-
-    constructor() {
-        this.current = 1;
-        this.heap = [];
-        this.set = new Set();
-    }
-
-    popSmallest(): number {
-        if (this.heap.length > 0) {
-            const val = this.heap.shift()!;
-            this.set.delete(val);
-            return val;
-        }
-        return this.current++;
-    }
-
-    addBack(num: number): void {
-        if (num < this.current && !this.set.has(num)) {
-            this.set.add(num);
-            this.heap.push(num);
-            this.heap.sort((a, b) => a - b);
-        }
-    }
+func (h hp) Less(i, j int) bool { return h.IntSlice[i] < h.IntSlice[j] }
+func (h *hp) Push(v any)        { h.IntSlice = append(h.IntSlice, v.(int)) }
+func (h *hp) Pop() any {
+	a := h.IntSlice
+	v := a[len(a)-1]
+	h.IntSlice = a[:len(a)-1]
+	return v
 }
 ```
 
 <!-- tabs:end -->
+```
+
+This should match the format you've requested for **2542. Maximum Subsequence Score**. Let me know if you need further modifications!
