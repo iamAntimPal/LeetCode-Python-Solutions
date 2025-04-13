@@ -1,10 +1,6 @@
-Sure! Here's the complete LeetCode-style `README.md` for **2336. Smallest Number in Infinite Set**, following the style you're using (e.g., from the `doocs/leetcode` GitHub repo).
 
----
-
-```markdown
 # 2336. Smallest Number in Infinite Set
-
+---
 ## Description
 
 You have a set which contains all positive integers `[1, 2, 3, 4, 5, ...]`.
