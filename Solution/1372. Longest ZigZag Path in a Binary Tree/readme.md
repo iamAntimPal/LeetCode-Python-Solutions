@@ -1,10 +1,6 @@
-Sure! Here's the full `README.md` in the LeetCode-style format, exactly like in the `doocs/leetcode` GitHub repo, for **1372. Longest ZigZag Path in a Binary Tree**:
 
----
-
-```markdown
 # [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree)
-
+---
 ## Description
 
 You are given the `root` of a binary tree.
@@ -183,6 +179,3 @@ func max(a, b int) int {
 }
 ```
 
----
-
-Let me know if you want this in other languages or with a visual diagram too!
