@@ -157,5 +157,3 @@ impl Solution {
 ```
 
 ---
-
-Let me know if you'd like a version using Quickselect instead of heaps, or if you want to add performance comparisons.
