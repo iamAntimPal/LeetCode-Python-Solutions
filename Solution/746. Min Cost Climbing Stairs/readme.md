@@ -2,9 +2,9 @@
 # [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 
 ---
-comments: true
-difficulty: Easy
-tags:
+- **comments**: true
+- **difficulty**: Easy
+- **tags**:
     - Array
     - Dynamic Programming
 ---
