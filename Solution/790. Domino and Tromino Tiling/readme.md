@@ -3,10 +3,9 @@
 # [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)
 
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0700-0799/0790.Domino%20and%20Tromino%20Tiling/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **tags**:
     - Dynamic Programming
 ---
 
