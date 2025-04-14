@@ -1,17 +1,17 @@
----
-comments: true
-difficulty: Medium
-edit_url: https://github.com/iamAntimPal/LeetCode-Python-Solutions/blob/main/Solution/162.%20Find%20Peak%20Element/readme.md
-tags:
-    - Array
-    - Binary Search
----
+
 
 <!-- problem:start -->
 
 # [162. Find Peak Element](https://leetcode.com/problems/find-peak-element)
 
-[中文文档](/solution/0100-0199/0162.Find%20Peak%20Element/README.md)
+---
+- **comments**: true
+- **difficulty**: Medium
+
+- **tags**:
+    - Array
+    - Binary Search
+---
 
 ## Description
 
