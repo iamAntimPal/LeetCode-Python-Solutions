@@ -1,3 +1,8 @@
+
+<!-- problem:start -->
+
+# [62. Unique Paths](https://leetcode.com/problems/unique-paths)
+
 ---
 comments: true
 difficulty: Medium
@@ -8,11 +13,6 @@ tags:
     - Combinatorics
 ---
 
-<!-- problem:start -->
-
-# [62. Unique Paths](https://leetcode.com/problems/unique-paths)
-
-[中文文档](/solution/0000-0099/0062.Unique%20Paths/README.md)
 
 ## Description
 
