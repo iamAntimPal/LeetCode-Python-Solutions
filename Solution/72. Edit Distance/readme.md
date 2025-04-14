@@ -4,10 +4,9 @@
 # [72. Edit Distance](https://leetcode.com/problems/edit-distance)
 
 ---
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0000-0099/0072.Edit%20Distance/README_EN.md
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **tags**:
     - String
     - Dynamic Programming
 ---
