@@ -2,6 +2,7 @@
 
 ![LeetCode Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png)
 
+<img src="./assets/LeetCode_75.gif" width="200" height="200">
 
 This repository contains Python solutions for various LeetCode problems. Each problem is organized in its own directory under the `Solution/` folder, with a `readme.md` file providing the problem description, examples, constraints, and solutions in multiple programming languages.
 
