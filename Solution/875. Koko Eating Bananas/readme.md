@@ -1,22 +1,16 @@
-Sure! Here's a markdown-formatted LeetCode-style explanation for a problem like the one you shared:
-
----
-
-```markdown
----
-comments: true
-difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0000-0099/0033.Search%20in%20Rotated%20Sorted%20Array/README_EN.md
-tags:
-  - Array
-  - Binary Search
----
 
 <!-- problem:start -->
 
 # [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)
 
-[中文文档](/solution/0000-0099/0033.Search%20in%20Rotated%20Sorted%20Array/README.md)
+
+---
+- **comments**: true
+- **difficulty**: Medium
+- **tags**:
+  - Array
+  - Binary Search
+---
 
 ## Description
 
@@ -109,5 +103,3 @@ class Solution {
 
 <!-- problem:end -->
 ```
-
-Let me know which LeetCode problem you'd like next in this format!
