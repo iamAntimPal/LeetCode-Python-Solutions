@@ -155,6 +155,3 @@ Explanation of the DFS solution.
 <!-- solution:end -->
 
 <!-- problem:end -->
-```
-
-Replace placeholders such as `[Problem Title](Problem URL)`, `Description of the problem statement goes here.`, and code snippets with actual content. This structure allows for clear organization of problem descriptions, examples, solutions, and code snippets across multiple programming languages. Adjust the tags, difficulty, and edit URL as per your specific needs.
