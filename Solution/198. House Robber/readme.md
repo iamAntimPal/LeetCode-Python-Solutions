@@ -3,9 +3,9 @@
 
 # [198. House Robber](https://leetcode.com/problems/house-robber)
 ---
-comments: true
-difficulty: Medium
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **tags**:
     - Array
     - Dynamic Programming
 ---
