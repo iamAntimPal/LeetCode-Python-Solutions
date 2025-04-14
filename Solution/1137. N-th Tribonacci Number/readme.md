@@ -3,11 +3,11 @@
 # [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number)
 
 ---
-comments: true
-difficulty: Easy
-rating: 1142
-source: Weekly Contest 147 Q1
-tags:
+- **comments**: true
+- **difficulty**: Easy
+- **rating**: 1142
+- **source**: Weekly Contest 147 Q1
+- **tags**:
     - Memoization
     - Math
     - Dynamic Programming
