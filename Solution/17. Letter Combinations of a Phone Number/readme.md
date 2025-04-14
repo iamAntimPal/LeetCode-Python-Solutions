@@ -5,9 +5,9 @@
 # [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 
 ---
-comments: true
-difficulty: Medium
-tags:
+- **comments**: true
+- **difficulty**: Medium
+- **tags**:
     - Hash Table
     - String
     - Backtracking
