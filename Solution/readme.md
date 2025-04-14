@@ -5,7 +5,7 @@ Here is a LeetCode-style problem description and solution for you, following the
 ```yaml
 comments: true
 difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/2300-2399/2300.Successful%20Pairs%20of%20Spells%20and%20Potions/README_EN.md
+edit_url: https://github.com/iamAntimPal/LeetCode-Python-Solutions/blob/main/Solution/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/readme.md
 rating: 1476
 source: Biweekly Contest 80 Q2
 tags:
