@@ -1,6 +1,6 @@
 # LeetCode Python Solutions
 
-![LeetCode Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png)
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"></p>
 
 <p align="center"><img src="./assets/LeetCode_75.gif"></p>
 
