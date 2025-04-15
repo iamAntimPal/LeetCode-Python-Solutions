@@ -1,7 +1,7 @@
 ---
 comments: true
 difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0400-0499/0452.Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/README_EN.md
+edit_url: Antim
 tags:
     - Greedy
     - Array
@@ -11,8 +11,6 @@ tags:
 <!-- problem:start -->
 
 # [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
-
-[中文文档](/solution/0400-0499/0452.Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/README.md)
 
 ## Description
 
@@ -129,58 +127,6 @@ public:
 };
 ```
 
-#### Go
-
-```go
-func findMinArrowShots(points [][]int) (ans int) {
-	sort.Slice(points, func(i, j int) bool { return points[i][1] < points[j][1] })
-	last := -(1 << 60)
-	for _, p := range points {
-		a, b := p[0], p[1]
-		if a > last {
-			ans++
-			last = b
-		}
-	}
-	return
-}
-```
-
-#### TypeScript
-
-```ts
-function findMinArrowShots(points: number[][]): number {
-    points.sort((a, b) => a[1] - b[1]);
-    let ans = 0;
-    let last = -Infinity;
-    for (const [a, b] of points) {
-        if (last < a) {
-            ans++;
-            last = b;
-        }
-    }
-    return ans;
-}
-```
-
-#### C#
-
-```cs
-public class Solution {
-    public int FindMinArrowShots(int[][] points) {
-        Array.Sort(points, (a, b) => a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0);
-        int ans = 0;
-        long last = long.MinValue;
-        foreach (var point in points) {
-            if (point[0] > last) {
-                ++ans;
-                last = point[1];
-            }
-        }
-        return ans;
-    }
-}
-```
 
 <!-- tabs:end -->
 
