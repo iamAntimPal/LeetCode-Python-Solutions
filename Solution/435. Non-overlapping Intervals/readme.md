@@ -1,7 +1,7 @@
 ---
 comments: true
 difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/0400-0499/0435.Non-overlapping%20Intervals/README_EN.md
+edit_url: Antim
 tags:
     - Greedy
     - Array
@@ -12,8 +12,6 @@ tags:
 <!-- problem:start -->
 
 # [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)
-
-[中文文档](/solution/0400-0499/0435.Non-overlapping%20Intervals/README.md)
 
 ## Description
 
@@ -136,41 +134,6 @@ public:
 };
 ```
 
-#### Go
-
-```go
-func eraseOverlapIntervals(intervals [][]int) int {
-	sort.Slice(intervals, func(i, j int) bool {
-		return intervals[i][1] < intervals[j][1]
-	})
-	ans := len(intervals)
-	pre := math.MinInt32
-	for _, e := range intervals {
-		l, r := e[0], e[1]
-		if pre <= l {
-			ans--
-			pre = r
-		}
-	}
-	return ans
-}
-```
-
-#### TypeScript
-
-```ts
-function eraseOverlapIntervals(intervals: number[][]): number {
-    intervals.sort((a, b) => a[1] - b[1]);
-    let [ans, pre] = [intervals.length, -Infinity];
-    for (const [l, r] of intervals) {
-        if (pre <= l) {
-            --ans;
-            pre = r;
-        }
-    }
-    return ans;
-}
-```
 
 <!-- tabs:end -->
 
