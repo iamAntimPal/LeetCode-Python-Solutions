@@ -195,6 +195,7 @@ This index provides a quick overview of all the problems and solutions available
 - [**238. Product of Array Except Self**](Solution/238.%20Product%20of%20Array%20Except%20Self/readme.md)
 - [**2390. Removing Stars From a String**](Solution/2390.%20Removing%20Stars%20From%20a%20String/readme.md)
 - [**2462. Total Cost to Hire K Workers**](Solution/2462.%20Total%20Cost%20to%20Hire%20K%20Workers/readme.md)
+- [**75B. LeetCode 75 Questions**](Solution/75B.%20LeetCode%2075%20Questions/readme.md)
 
 ## 📂 Previous Solutions Directory
 
