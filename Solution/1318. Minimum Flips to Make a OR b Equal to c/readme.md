@@ -1,7 +1,7 @@
 ---
 comments: true
 difficulty: Medium
-edit_url: https://github.com/doocs/leetcode/edit/main/solution/1300-1399/1318.Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/README_EN.md
+edit_url: antim
 rating: 1382
 source: Weekly Contest 171 Q2
 tags:
@@ -12,7 +12,6 @@ tags:
 
 # [1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)
 
-[中文文档](/solution/1300-1399/1318.Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/README.md)
 
 ## Description
 
@@ -109,35 +108,6 @@ public:
         return ans;
     }
 };
-```
-
-#### Go
-
-```go
-func minFlips(a int, b int, c int) (ans int) {
-	for i := 0; i < 32; i++ {
-		x, y, z := a>>i&1, b>>i&1, c>>i&1
-		if z == 0 {
-			ans += x + y
-		} else if x == 0 && y == 0 {
-			ans++
-		}
-	}
-	return
-}
-```
-
-#### TypeScript
-
-```ts
-function minFlips(a: number, b: number, c: number): number {
-    let ans = 0;
-    for (let i = 0; i < 32; ++i) {
-        const [x, y, z] = [(a >> i) & 1, (b >> i) & 1, (c >> i) & 1];
-        ans += z === 0 ? x + y : x + y === 0 ? 1 : 0;
-    }
-    return ans;
-}
 ```
 
 <!-- tabs:end -->
